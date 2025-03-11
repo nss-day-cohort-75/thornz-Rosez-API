@@ -1,0 +1,494 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Fluffy McSnuggles",
+            "email": "fluffy@snuggles.com",
+            "password": "pillow"
+        },
+        {
+            "id": 2,
+            "name": "Wigglebutt McGoo",
+            "email": "wigglebutt@goof.com",
+            "password": "banana"
+        },
+        {
+            "id": 3,
+            "name": "Sir Barksalot",
+            "email": "sir@bark.com",
+            "password": "cookie"
+        },
+        {
+            "id": 4,
+            "name": "Doodle Noodle",
+            "email": "doodle@noodle.com",
+            "password": "noodle"
+        },
+        {
+            "id": 5,
+            "name": "Pickle McFluffernutter",
+            "email": "pickle@fluff.com",
+            "password": "pickle"
+        }
+    ],
+    "flowers":[
+        {
+            "id": 1,
+            "color": "Red",
+            "species": "Rose"
+        },
+        {
+            "id": 2,
+            "color": "Yellow",
+            "species": "Tulip"
+        },
+        {
+            "id": 3,
+            "color": "Pink",
+            "species": "Lily"
+        },
+        {
+            "id": 4,
+            "color": "Blue",
+            "species": "Bluebell"
+        },
+        {
+            "id": 5,
+            "color": "Purple",
+            "species": "Lavender"
+        },
+        {
+            "id": 6,
+            "color": "White",
+            "species": "Daisy"
+        },
+        {
+            "id": 7,
+            "color": "Orange",
+            "species": "Marigold"
+        },
+        {
+            "id": 8,
+            "color": "Pink",
+            "species": "Peony"
+        },
+        {
+            "id": 9,
+            "color": "Red",
+            "species": "Carnation"
+        },
+        {
+            "id": 10,
+            "color": "Yellow",
+            "species": "Sunflower"
+        },
+        {
+            "id": 11,
+            "color": "White",
+            "species": "Jasmine"
+        },
+        {
+            "id": 12,
+            "color": "Purple",
+            "species": "Iris"
+        },
+        {
+            "id": 13,
+            "color": "Blue",
+            "species": "Forget-me-not"
+        },
+        {
+            "id": 14,
+            "color": "Pink",
+            "species": "Cherry Blossom"
+        },
+        {
+            "id": 15,
+            "color": "Orange",
+            "species": "Poppy"
+        }
+    ],
+    "nurseries":[
+        {
+            "id": 1,
+            "name": "Blooming Petals Nursery"
+        },
+        {
+            "id": 2,
+            "name": "Petal Paradise"
+        },
+        {
+            "id": 3,
+            "name": "Floral Haven"
+        },
+        {
+            "id": 4,
+            "name": "Green Thumb Florals"
+        },
+        {
+            "id": 5,
+            "name": "Sunshine Blossoms"
+        },
+        {
+            "id": 6,
+            "name": "The Orchid Garden"
+        },
+        {
+            "id": 7,
+            "name": "Eden Flower Farm"
+        },
+        {
+            "id": 8,
+            "name": "Rosebud Nursery"
+        }
+    ],
+    "distributors":[
+        
+        {
+            "id": 1,
+            "name": "Bravo Distribution Co.",
+            "markup": 0.05
+        },
+        {
+            "id": 2,
+            "name": "Cedar Trading Group",
+            "markup": 0.10
+        },
+        {
+            "id": 3,
+            "name": "Delta Wholesale Ltd.",
+            "markup": 0.10
+        },
+        {
+            "id": 4,
+            "name": "Echo Merchants LLC",
+            "markup": 0.10
+        },
+        {
+            "id": 5,
+            "name": "Fox River Distributors",
+            "markup": 0.5
+        },
+        {
+            "id": 6,
+            "name": "Horizon Global Trading",
+            "markup": 0.10
+        },
+        {
+            "id": 7,
+            "name": "Jade Mountain Trading",
+            "markup": 0.5
+        }
+    ],
+    "retailers":[
+        {
+            "id": 1,
+            "name": "Blooming Garden Florals",
+            "address": "123 Floral Lane, Roseville, CA 95678",
+            "distributorId": 1,
+            "markup": 0.25
+        },
+        {
+            "id": 2,
+            "name": "Petals and Stems",
+            "address": "456 Blossom Blvd, Springfield, IL 62704",
+            "distributorId": 2,
+            "markup": 0.15
+        },
+        {
+            "id": 3,
+            "name": "The Flower Shoppe",
+            "address": "789 Tulip Avenue, Dallas, TX 75201",
+            "distributorId": 3,
+            "markup": 0.25
+        },
+        {
+            "id": 4,
+            "name": "Wildflower Creations",
+            "address": "321 Daisy Street, Portland, OR 97201",
+            "distributorId": 4,
+            "markup": 0.15
+        },
+        {
+            "id": 5,
+            "name": "A Village of Flowers",
+            "address": "1712 21st Ave S, Nashville, TN 37212",
+            "distributorId": 7,
+            "markup": 0.10
+        }
+    ],
+    "nursery-flowers":[
+        {
+            "flowerId": 1,
+            "nurseryId": 1,
+            "price": 12.00
+        },
+        {
+            "flowerId": 2,
+            "nurseryId": 2,
+            "price": 10.00
+        },
+        {
+            "flowerId": 3,
+            "nurseryId": 3,
+            "price": 15.00
+        },
+        {
+            "flowerId": 4,
+            "nurseryId": 4,
+            "price": 8.00
+        },
+        {
+            "flowerId": 5,
+            "nurseryId": 5,
+            "price": 13.00
+        },
+        {
+            "flowerId": 6,
+            "nurseryId": 6,
+            "price": 10.00
+        },
+        {
+            "flowerId": 7,
+            "nurseryId": 7,
+            "price": 7.00
+        },
+        {
+            "flowerId": 8,
+            "nurseryId": 8,
+            "price": 16.00
+        },
+        {
+            "flowerId": 9,
+            "nurseryId": 1,
+            "price": 11.00
+        },
+        {
+            "flowerId": 10,
+            "nurseryId": 3,
+            "price": 14.00
+        },
+        {
+            "flowerId": 11,
+            "nurseryId": 4,
+            "price": 10.00
+        },
+        {
+            "flowerId": 12,
+            "nurseryId": 5,
+            "price": 18.00
+        },
+        {
+            "flowerId": 13,
+            "nurseryId": 6,
+            "price": 7.00
+        },
+        {
+            "flowerId": 14,
+            "nurseryId": 7,
+            "price": 13.00
+        },
+        {
+            "flowerId": 15,
+            "nurseryId": 8,
+            "price": 10.00
+        },
+        {
+            "flowerId": 1,
+            "nurseryId": 2,
+            "price": 12.00
+        },
+        {
+            "flowerId": 2,
+            "nurseryId": 5,
+            "price": 10.00
+        },
+        {
+            "flowerId": 3,
+            "nurseryId": 6,
+            "price": 15.00
+        },
+        {
+            "flowerId": 4,
+            "nurseryId": 7,
+            "price": 8.00
+        },
+        {
+            "flowerId": 5,
+            "nurseryId": 8,
+            "price": 13.00
+        },
+        {
+            "flowerId": 6,
+            "nurseryId": 1,
+            "price": 10.00
+        },
+        {
+            "flowerId": 7,
+            "nurseryId": 3,
+            "price": 7.00
+        },
+        {
+            "flowerId": 8,
+            "nurseryId": 4,
+            "price": 16.00
+        },
+        {
+            "flowerId": 9,
+            "nurseryId": 5,
+            "price": 11.00
+        },
+        {
+            "flowerId": 10,
+            "nurseryId": 6,
+            "price": 14.00
+        },
+        {
+            "flowerId": 11,
+            "nurseryId": 7,
+            "price": 10.00
+        },
+        {
+            "flowerId": 12,
+            "nurseryId": 8,
+            "price": 18.00
+        },
+        {
+            "flowerId": 13,
+            "nurseryId": 1,
+            "price": 7.00
+        },
+        {
+            "flowerId": 14,
+            "nurseryId": 2,
+            "price": 13.00
+        },
+        {
+            "flowerId": 15,
+            "nurseryId": 3,
+            "price": 10.00
+        },
+        {
+            "flowerId": 1,
+            "nurseryId": 3,
+            "price": 12.00
+        },
+        {
+            "flowerId": 2,
+            "nurseryId": 4,
+            "price": 10.00
+        },
+        {
+            "flowerId": 3,
+            "nurseryId": 5,
+            "price": 15.00
+        },
+        {
+            "flowerId": 4,
+            "nurseryId": 6,
+            "price": 8.00
+        },
+        {
+            "flowerId": 5,
+            "nurseryId": 7,
+            "price": 13.00
+        },
+        {
+            "flowerId": 6,
+            "nurseryId": 8,
+            "price": 10.00
+        },
+        {
+            "flowerId": 7,
+            "nurseryId": 1,
+            "price": 7.00
+        },
+        {
+            "flowerId": 8,
+            "nurseryId": 2,
+            "price": 16.00
+        },
+        {
+            "flowerId": 9,
+            "nurseryId": 3,
+            "price": 11.00
+        },
+        {
+            "flowerId": 10,
+            "nurseryId": 4,
+            "price": 14.00
+        },
+        {
+            "flowerId": 11,
+            "nurseryId": 5,
+            "price": 10.00
+        },
+        {
+            "flowerId": 12,
+            "nurseryId": 6,
+            "price": 18.00
+        },
+        {
+            "flowerId": 13,
+            "nurseryId": 7,
+            "price": 7.00
+        },
+        {
+            "flowerId": 14,
+            "nurseryId": 8,
+            "price": 13.00
+        },
+        {
+            "flowerId": 15,
+            "nurseryId": 1,
+            "price": 10.00
+        }
+
+    ],
+    "nursery-distributors":[
+        {
+            "id":1,
+            "nurseryId":3,
+            "distributorId":7
+        },
+        {
+            "id":2,
+            "nurseryId":4,
+            "distributorId":8
+        },
+        {
+            "id":3,
+            "nurseryId":5,
+            "distributorId":5
+        },
+        {
+            "id":4,
+            "nurseryId":3,
+            "distributorId":4
+        },
+        {
+            "id":5,
+            "nurseryId":1,
+            "distributorId":7
+        },
+        {
+            "id":6,
+            "nurseryId":2,
+            "distributorId":6
+        },
+        {
+            "id":7,
+            "nurseryId":8,
+            "distributorId":7
+        },
+        {
+            "id":8,
+            "nurseryId":7,
+            "distributorId":1
+        }
+
+    ],
+    "cart":[
+
+    ]
+}
