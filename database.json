@@ -4,31 +4,36 @@
             "id": 1,
             "name": "Fluffy McSnuggles",
             "email": "fluffy@snuggles.com",
-            "password": "pillow"
+            "password": "pillow",
+            "businessName": "Fluff Corp"
         },
         {
             "id": 2,
             "name": "Wigglebutt McGoo",
             "email": "wigglebutt@goof.com",
-            "password": "banana"
+            "password": "banana",
+            "businessName":"Wiggle Inc"
         },
         {
             "id": 3,
             "name": "Sir Barksalot",
             "email": "sir@bark.com",
-            "password": "cookie"
+            "password": "cookie",
+            "businessName":"Sir Cookies"
         },
         {
             "id": 4,
             "name": "Doodle Noodle",
             "email": "doodle@noodle.com",
-            "password": "noodle"
+            "password": "noodle",
+            "businessName":"Noodlin A Round"
         },
         {
             "id": 5,
             "name": "Pickle McFluffernutter",
             "email": "pickle@fluff.com",
-            "password": "pickle"
+            "password": "pickle",
+            "businessName":"No Big Dill"
         }
     ],
     "flowers":[
