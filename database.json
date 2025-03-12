@@ -510,7 +510,25 @@
       "id": 11,
       "nurseryId": 2,
       "distributorId": 3
+    },
+    {
+      "id": 12,
+      "nurseryId": 3,
+      "distributorId": 1
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "customerId": 6,
+      "flowerId": 3,
+      "retailerId": 1,
+      "id": 1
+    },
+    {
+      "customerId": 6,
+      "flowerId": 9,
+      "retailerId": 1,
+      "id": 2
+    }
+  ]
 }
